@@ -20,7 +20,9 @@ const Readme = () => {
 
     return (
         <Layout>
-            <Markdown>{readme}</Markdown>
+            <div className='p-3'>
+                <Markdown>{readme}</Markdown>
+            </div>
         </Layout>
     );
 };
