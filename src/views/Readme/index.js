@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Link, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import axios from "axios";
 import Layout from "../../components/Layout";
 import Markdown from 'markdown-to-jsx';

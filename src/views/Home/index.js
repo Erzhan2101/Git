@@ -17,7 +17,7 @@ const Home = () => {
         }
     }
     const handleCheck = () => {
-        if (username.trim()) {
+        if (username) {
             history.push(`/${username}`)
         }
     }

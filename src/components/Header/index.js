@@ -20,7 +20,8 @@ const Header = () => {
                 </div>
             </Link>
             <div>
-                <input type="text" placeholder="search" className="input rounded"/>
+                <Link to='/' className='text-white'>Home</Link>
+                <input type="text" placeholder="search" className="input rounded ms-2"/>
             </div>
         </header>
     );
