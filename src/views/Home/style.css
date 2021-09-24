@@ -1,0 +1,12 @@
+.home{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-box{
+    border: 2px solid black;
+    padding: 30px 20px;
+}

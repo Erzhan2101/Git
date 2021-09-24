@@ -7,8 +7,8 @@ function App() {
     return (
         <Router>
             <Route exact path="/"><Home /></Route>
-            <Route exact path="/:username"><Readme /></Route>
-            <Route path="/:username/:project"><Repositories /></Route>
+            <Route exact path="/:username"><Repositories /></Route>
+            <Route path="/:username/:project"><Readme /></Route>
         </Router>
     );
 }
